@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #container {
+        border: 1px solid black;
+        width: 80%;
+        margin: 0 auto;
+        /* height: 600px; */
+        background-color: lightyellow;
+        padding: 20px 40px;;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+      }
+
+      li {
+        list-style: none;
+        margin-bottom: 5px;
+      }
+      #content {
+        border-left: 1px solid black;
+        padding: 10px;
+        max-width: 70%;
+      }
+
+      #menu {
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+
+      .atribute {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .rand {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+      }
+      .second{
+          padding-left: 55px;
+          color: aqua;
+      }
+      .proprietate {
+        font-weight: bold;
+        width: 80px;
+      }
+
+      #image {
+        display: flex;
+        justify-content: center;
+      }
+
+      #image img {
+        border-radius: 50%;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="menu">
+        <ul>
+          <li>Rotweiller</li>
+          <li>Beagle</li>
+          <li>Poodle</li>
+          <li>German Shephard</li>
+          <li>Caucasian Shephard</li>
+        <ul>
+      </div>
+      <div id="content">
+        <div id="image">
+            <img src="https://picsum.photos/id/237/300/300" />
+        </div>
+        
+        <h1>Beagle</h1>
+        <div class="atribute">
+          <div class="rand">
+              <div class="proprietate">Weight:</div><div class="second">20kg</div>
+          </div>
+          <div class="rand">
+              <div class="proprietate">Coat:</div><div class="second">smooth</div>
+
+          </div>
+          <div class="rand">
+              <div class="proprietate">Colour:</div><div class="second">blue </div>
+          </div>
+          
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
